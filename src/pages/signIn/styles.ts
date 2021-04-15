@@ -13,8 +13,8 @@ export const Container = styled.div`
 export const Content = styled.div`
     display: flex;
     flex-direction: column;
-    place-content: center;
     align-items: center;
+    justify-content: center;
 
     width: 100%;
     max-width: 700px;
@@ -63,7 +63,7 @@ export const Content = styled.div`
         }
     }
 `;
-
+  
 export const Background = styled.div`
     flex: 1;
     background: url(${signInBackgroundImg}) no-repeat center;
